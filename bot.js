@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Hoş geldin dostum seni görmek ne güzel!');
+  if (msg.content.toLowerCase() === 'botun cevap vermesi için yazılan kelime') {
+    msg.reply('botun vermesini istediğiniz yanıt!');
   }
   if (msg.content.toLowerCase() === 'instagram') {
     msg.reply('@samet2gether');
